@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lets play game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="body">
+        <div class="head">Rock Paper Scissor
+            <span id="m">toggle mode<img src="img/dark.png" alt="" id="mode" onclick="changemode()"></span></div>
+        <div class="heading">Select your choice</div>
+        <div class="rps">
+            <div class="rock">
+                <img src="img/rock.png" alt="" id="rock">
+            </div>
+            <div class="paper">
+                <img src="img/paper.png" alt="" id="paper">
+            </div>
+            <div class="scissor">
+                <img src="img/scissor.png" alt="" id="scissor">
+            </div>
+        </div>
+        <!-- <div class= "bot" >Computer's choice</div> -->
+        <div class="heading">
+            Your Score
+            <Button onclick="reset()">Reset</Button>
+        </div>
+        <div class="score">
+            <div class="won">
+                WON : <span id="w">0</span>
+            </div>
+            <div class="lost">
+                LOST : <span id="l">0</span>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="action.js"></script>
+
+</html>
